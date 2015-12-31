@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6EE08101C34E7F100FA953B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE080F1C34E7F100FA953B /* AppDelegate.swift */; };
+		E6EE08141C34E7F100FA953B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE08131C34E7F100FA953B /* GameScene.swift */; };
+		E6EE08161C34E7F100FA953B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE08151C34E7F100FA953B /* GameViewController.swift */; };
+		E6EE08191C34E7F100FA953B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EE08171C34E7F100FA953B /* Main.storyboard */; };
+		E6EE081B1C34E7F100FA953B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6EE081A1C34E7F100FA953B /* Assets.xcassets */; };
+		E6EE081E1C34E7F100FA953B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EE081C1C34E7F100FA953B /* LaunchScreen.storyboard */; };
+		E6EE08291C34E7F100FA953B /* EatOrBeatenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE08281C34E7F100FA953B /* EatOrBeatenTests.swift */; };
+		E6EE08341C34E7F100FA953B /* EatOrBeatenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE08331C34E7F100FA953B /* EatOrBeatenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6EE08251C34E7F100FA953B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EE08041C34E7F100FA953B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6EE080B1C34E7F100FA953B;
+			remoteInfo = EatOrBeaten;
+		};
+		E6EE08301C34E7F100FA953B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EE08041C34E7F100FA953B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6EE080B1C34E7F100FA953B;
+			remoteInfo = EatOrBeaten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6EE080C1C34E7F100FA953B /* EatOrBeaten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatOrBeaten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EE080F1C34E7F100FA953B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6EE08131C34E7F100FA953B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E6EE08151C34E7F100FA953B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E6EE08181C34E7F100FA953B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6EE081A1C34E7F100FA953B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6EE081D1C34E7F100FA953B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6EE081F1C34E7F100FA953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EE08241C34E7F100FA953B /* EatOrBeatenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatOrBeatenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EE08281C34E7F100FA953B /* EatOrBeatenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatOrBeatenTests.swift; sourceTree = "<group>"; };
+		E6EE082A1C34E7F100FA953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EE082F1C34E7F100FA953B /* EatOrBeatenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatOrBeatenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EE08331C34E7F100FA953B /* EatOrBeatenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatOrBeatenUITests.swift; sourceTree = "<group>"; };
+		E6EE08351C34E7F100FA953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6EE08091C34E7F100FA953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EE08211C34E7F100FA953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EE082C1C34E7F100FA953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6EE08031C34E7F100FA953B = {
+			isa = PBXGroup;
+			children = (
+				E6EE080E1C34E7F100FA953B /* EatOrBeaten */,
+				E6EE08271C34E7F100FA953B /* EatOrBeatenTests */,
+				E6EE08321C34E7F100FA953B /* EatOrBeatenUITests */,
+				E6EE080D1C34E7F100FA953B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6EE080D1C34E7F100FA953B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE080C1C34E7F100FA953B /* EatOrBeaten.app */,
+				E6EE08241C34E7F100FA953B /* EatOrBeatenTests.xctest */,
+				E6EE082F1C34E7F100FA953B /* EatOrBeatenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EE080E1C34E7F100FA953B /* EatOrBeaten */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE080F1C34E7F100FA953B /* AppDelegate.swift */,
+				E6EE08131C34E7F100FA953B /* GameScene.swift */,
+				E6EE08151C34E7F100FA953B /* GameViewController.swift */,
+				E6EE08171C34E7F100FA953B /* Main.storyboard */,
+				E6EE081A1C34E7F100FA953B /* Assets.xcassets */,
+				E6EE081C1C34E7F100FA953B /* LaunchScreen.storyboard */,
+				E6EE081F1C34E7F100FA953B /* Info.plist */,
+			);
+			path = EatOrBeaten;
+			sourceTree = "<group>";
+		};
+		E6EE08271C34E7F100FA953B /* EatOrBeatenTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE08281C34E7F100FA953B /* EatOrBeatenTests.swift */,
+				E6EE082A1C34E7F100FA953B /* Info.plist */,
+			);
+			path = EatOrBeatenTests;
+			sourceTree = "<group>";
+		};
+		E6EE08321C34E7F100FA953B /* EatOrBeatenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE08331C34E7F100FA953B /* EatOrBeatenUITests.swift */,
+				E6EE08351C34E7F100FA953B /* Info.plist */,
+			);
+			path = EatOrBeatenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6EE080B1C34E7F100FA953B /* EatOrBeaten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EE08381C34E7F100FA953B /* Build configuration list for PBXNativeTarget "EatOrBeaten" */;
+			buildPhases = (
+				E6EE08081C34E7F100FA953B /* Sources */,
+				E6EE08091C34E7F100FA953B /* Frameworks */,
+				E6EE080A1C34E7F100FA953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EatOrBeaten;
+			productName = EatOrBeaten;
+			productReference = E6EE080C1C34E7F100FA953B /* EatOrBeaten.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6EE08231C34E7F100FA953B /* EatOrBeatenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EE083B1C34E7F100FA953B /* Build configuration list for PBXNativeTarget "EatOrBeatenTests" */;
+			buildPhases = (
+				E6EE08201C34E7F100FA953B /* Sources */,
+				E6EE08211C34E7F100FA953B /* Frameworks */,
+				E6EE08221C34E7F100FA953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6EE08261C34E7F100FA953B /* PBXTargetDependency */,
+			);
+			name = EatOrBeatenTests;
+			productName = EatOrBeatenTests;
+			productReference = E6EE08241C34E7F100FA953B /* EatOrBeatenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6EE082E1C34E7F100FA953B /* EatOrBeatenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EE083E1C34E7F100FA953B /* Build configuration list for PBXNativeTarget "EatOrBeatenUITests" */;
+			buildPhases = (
+				E6EE082B1C34E7F100FA953B /* Sources */,
+				E6EE082C1C34E7F100FA953B /* Frameworks */,
+				E6EE082D1C34E7F100FA953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6EE08311C34E7F100FA953B /* PBXTargetDependency */,
+			);
+			name = EatOrBeatenUITests;
+			productName = EatOrBeatenUITests;
+			productReference = E6EE082F1C34E7F100FA953B /* EatOrBeatenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6EE08041C34E7F100FA953B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Rita Cheung";
+				TargetAttributes = {
+					E6EE080B1C34E7F100FA953B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E6EE08231C34E7F100FA953B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E6EE080B1C34E7F100FA953B;
+					};
+					E6EE082E1C34E7F100FA953B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E6EE080B1C34E7F100FA953B;
+					};
+				};
+			};
+			buildConfigurationList = E6EE08071C34E7F100FA953B /* Build configuration list for PBXProject "EatOrBeaten" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6EE08031C34E7F100FA953B;
+			productRefGroup = E6EE080D1C34E7F100FA953B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6EE080B1C34E7F100FA953B /* EatOrBeaten */,
+				E6EE08231C34E7F100FA953B /* EatOrBeatenTests */,
+				E6EE082E1C34E7F100FA953B /* EatOrBeatenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6EE080A1C34E7F100FA953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EE081E1C34E7F100FA953B /* LaunchScreen.storyboard in Resources */,
+				E6EE081B1C34E7F100FA953B /* Assets.xcassets in Resources */,
+				E6EE08191C34E7F100FA953B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EE08221C34E7F100FA953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EE082D1C34E7F100FA953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6EE08081C34E7F100FA953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EE08141C34E7F100FA953B /* GameScene.swift in Sources */,
+				E6EE08161C34E7F100FA953B /* GameViewController.swift in Sources */,
+				E6EE08101C34E7F100FA953B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EE08201C34E7F100FA953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EE08291C34E7F100FA953B /* EatOrBeatenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EE082B1C34E7F100FA953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EE08341C34E7F100FA953B /* EatOrBeatenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6EE08261C34E7F100FA953B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6EE080B1C34E7F100FA953B /* EatOrBeaten */;
+			targetProxy = E6EE08251C34E7F100FA953B /* PBXContainerItemProxy */;
+		};
+		E6EE08311C34E7F100FA953B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6EE080B1C34E7F100FA953B /* EatOrBeaten */;
+			targetProxy = E6EE08301C34E7F100FA953B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6EE08171C34E7F100FA953B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6EE08181C34E7F100FA953B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6EE081C1C34E7F100FA953B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6EE081D1C34E7F100FA953B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6EE08361C34E7F100FA953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6EE08371C34E7F100FA953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6EE08391C34E7F100FA953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EatOrBeaten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatles.EatOrBeaten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6EE083A1C34E7F100FA953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EatOrBeaten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatles.EatOrBeaten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6EE083C1C34E7F100FA953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = EatOrBeatenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatles.EatOrBeatenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatOrBeaten.app/EatOrBeaten";
+			};
+			name = Debug;
+		};
+		E6EE083D1C34E7F100FA953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EatOrBeatenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatles.EatOrBeatenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatOrBeaten.app/EatOrBeaten";
+			};
+			name = Release;
+		};
+		E6EE083F1C34E7F100FA953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = EatOrBeatenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatles.EatOrBeatenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EatOrBeaten;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E6EE08401C34E7F100FA953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EatOrBeatenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatles.EatOrBeatenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EatOrBeaten;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6EE08071C34E7F100FA953B /* Build configuration list for PBXProject "EatOrBeaten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EE08361C34E7F100FA953B /* Debug */,
+				E6EE08371C34E7F100FA953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EE08381C34E7F100FA953B /* Build configuration list for PBXNativeTarget "EatOrBeaten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EE08391C34E7F100FA953B /* Debug */,
+				E6EE083A1C34E7F100FA953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6EE083B1C34E7F100FA953B /* Build configuration list for PBXNativeTarget "EatOrBeatenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EE083C1C34E7F100FA953B /* Debug */,
+				E6EE083D1C34E7F100FA953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6EE083E1C34E7F100FA953B /* Build configuration list for PBXNativeTarget "EatOrBeatenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EE083F1C34E7F100FA953B /* Debug */,
+				E6EE08401C34E7F100FA953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6EE08041C34E7F100FA953B /* Project object */;
+}
